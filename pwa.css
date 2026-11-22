@@ -561,3 +561,5 @@ main.app-views {
 .hero-photo-credit{position:absolute;z-index:3;left:12px;bottom:12px;padding:7px 9px;border-radius:7px;background:rgba(255,255,255,.92);color:#315d4d;font-size:8px;font-weight:750}
 .food-photo-credit{position:absolute;left:10px;top:10px;padding:6px 8px;border-radius:6px;background:rgba(255,255,255,.9)}
 .care-gallery .service-photo-credit{display:inline-flex;margin:4px 10px 10px;font-size:8px;color:#587462;text-decoration:underline}
+
+.food-banner{position:relative}
