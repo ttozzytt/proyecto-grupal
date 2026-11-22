@@ -60,11 +60,12 @@ self.addEventListener('fetch', event => {
   const sameOrigin = url.origin === self.location.origin;
   if (url.searchParams.has("__pata_health")) { event.respondWith(fetch(request)); return; }
   if (!sameOrigin) {
-    if (request.destination !== 'image') return;
+    // Guarda imágenes y el script jQuery usado por la PWA para conservar su funcionamiento offline.
+    const cacheableExternal = request.destination === 'image' || request.destination === 'script';
+    if (!cacheableExternal) return;
     event.respondWith((async () => {
       const cache = await caches.open(CACHE_NAME);
       const saved = await cache.match(request);
-      if (saved) return saved;
       try {
         const live = await fetch(request);
         if (live.ok || live.type === 'opaque') await cache.put(request, live.clone());
