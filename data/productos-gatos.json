@@ -1,0 +1,62 @@
+[
+  {
+    "id": "alimentacion-etapa",
+    "name": "Alimento según su etapa",
+    "kind": "Orientación nutricional",
+    "presentation": "Gatitos, adultos y gatos mayores",
+    "description": "La fórmula debe corresponder a la etapa de vida y a las necesidades del gato.",
+    "image": "./imagenes/vet-atencion-felina.webp",
+    "imageAlt": "Gato durante una evaluación veterinaria",
+    "guidance": "Antes de cambiar el alimento, revisa el empaque y consulta si tu gato tiene una condición de salud."
+  },
+  {
+    "id": "alimento-humedo",
+    "name": "Alimento húmedo",
+    "kind": "Hidratación y variedad",
+    "presentation": "Sobres y latas según fabricante",
+    "description": "Puede complementar la alimentación y aportar humedad, siempre que sea completo o se combine correctamente.",
+    "image": "./imagenes/vet-cuidados.webp",
+    "imageAlt": "Gato en un espacio de cuidado",
+    "guidance": "Deja agua fresca disponible y confirma la ración indicada para su peso."
+  },
+  {
+    "id": "transicion-alimento",
+    "name": "Cambio gradual de alimento",
+    "kind": "Cambio de dieta",
+    "presentation": "Transición progresiva",
+    "description": "Al cambiar de marca o fórmula, una transición gradual ayuda a observar la tolerancia del gato.",
+    "image": "./imagenes/vet-consulta.webp",
+    "imageAlt": "Atención veterinaria durante una consulta",
+    "guidance": "Consulta si aparecen vómitos, diarrea, pérdida del apetito u otras molestias."
+  },
+  {
+    "id": "porciones-peso",
+    "name": "Porciones según su peso",
+    "kind": "Ración diaria",
+    "presentation": "Cantidad indicada en el envase y ajustada al paciente",
+    "description": "La actividad, edad, condición corporal y estado de salud influyen en la cantidad de alimento.",
+    "image": "./imagenes/vet-portada.webp",
+    "imageAlt": "Perro y gato durante una atención veterinaria",
+    "guidance": "No todas las mascotas necesitan la misma cantidad; evita calcular la ración solo por intuición."
+  },
+  {
+    "id": "gatitos-crecimiento",
+    "name": "Alimentación de gatitos",
+    "kind": "Etapa de crecimiento",
+    "presentation": "Fórmula apropiada para gatitos",
+    "description": "Durante el crecimiento es importante utilizar una fórmula completa apropiada para la edad.",
+    "image": "./imagenes/vet-atencion-felina.webp",
+    "imageAlt": "Gato joven durante su revisión",
+    "guidance": "El veterinario puede orientar la cantidad, frecuencia y momento adecuado para pasar a alimento adulto."
+  },
+  {
+    "id": "dieta-especial",
+    "name": "Dietas especiales",
+    "kind": "Indicación profesional",
+    "presentation": "Según evaluación veterinaria",
+    "description": "Algunas condiciones requieren una dieta específica y seguimiento profesional.",
+    "image": "./imagenes/vet-evaluacion.webp",
+    "imageAlt": "Evaluación veterinaria del estado de una mascota",
+    "guidance": "No sustituyas una dieta terapéutica ni administres suplementos sin orientación profesional."
+  }
+]
